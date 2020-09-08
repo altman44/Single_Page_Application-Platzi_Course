@@ -7,12 +7,15 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
-  "keywords": ["javascript"],
+  "keywords": [
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.1.0",
     "html-webpack-plugin": "^4.4.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
